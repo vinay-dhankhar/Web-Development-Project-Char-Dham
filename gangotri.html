@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <title>Gangotri</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-bar">
+            <img class="nav-el" src="https://amritmahotsav.nic.in/writereaddata/portal/images/logo-poster-4.jpg"
+                alt="azadi_ka_amrit_Logo">
+            <a class="nav-el" href="home.html">
+                <p>HOME</p>
+            </a>
+            <a class="nav-el" href="expolre.html">
+                <p>EXPLORE</p>
+            </a>
+            <a class="nav-el" href="experience.html">
+                <p> EXPERIENCE</p>
+            </a>
+            <a class="nav-el" href="faq.html">
+                <p>FAQ</p>
+            </a>
+        </nav>
+    </header>
+    <div class="slidecard">
+        <div class="slides">
+            <div class="images" id="img1">
+                <img src=""
+                    alt="Gangotri in summers">
+            </div>
+            <div class="images" id="img3">
+                <img src=""
+                    alt="Gangotri art">
+            </div>
+            <div class="images" id="img4">
+                <img src=""
+                    alt="Gangotri in winters">
+            </div>
+        </div>
+    </div>
+    <div class="slider-btn">
+        <input type="radio" name="slide" class="btn" id="img1" onclick="shiftimg(1)">
+        <input type="radio" name="slide" class="btn" id="img2" onclick="shiftimg(2)">
+    </div>
+    <div class="info_img">
+        <div>
+            <h1>
+                Gangotri
+            </h1>
+        </div>
+        <img src=""
+            alt="Gangotri temple" 
+                >
+    <div class="img_content">
+        <div class="img_info">
+            <ul>
+                <li>One of the most revered temple towns of India</li>
+                <li>
+                    Home to the sacred Gangotri temple
+                </li>
+                <li>A scenic destination located high up in the Himalayas</li>
+                <li>A trekker's paradise</li>
+                <li>Famous for Rudra cave, where PM Narendra Modi had meditated</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="know">
+        <h2>
+            What to Know
+        </h2>
+        <p>
+        </p>
+    </div>
+    <div class="time">
+        <h3>Best time to visit</h3>
+        <p>
+            From May to October is the best time to visit Gangotri. During winter months, the town remains closed due
+            to heavy snowfall. The temple has been shut for the winter of 2021-22.
+        </p>
+    </div>
+    <div class="attractions">
+        <div class="title">
+            <h2 class="headings" style="color:black
+        ">Attractions</h2>
+        </div>
+        <div>
+            <img src="" class="gen_img"
+                id="img">
+            <img src=""
+                class="gen_img" id="img">
+        </div>
+    </div>
+    <div class="to_do">
+        <h2 class="headings">What to do</h2>
+        <img src="" class="gen_img">
+        <img src="" class="gen_img">
+        <img src="" class="gen_img">
+    </div>
+    <div class="dir_weather">
+        <h2>Get Direction</h2>
+    </div>
+    <div class="nearby">
+        <h2 class="headings" style="color:black
+        ">Nearby Destinations</h2>
+        <img src="" alt=""
+            class="gen_img" id="img">
+        <img src="" alt=""
+            class="gen_img" id="img">
+        <img src="" alt=""
+            class="gen_img" id="img">
+    </div>
+    <footer>
+        <div class="about">
+            <h2>
+                About
+            </h2>
+            <ul>
+                <li>
+                    About us
+                </li>
+                <li>
+                    Contact Us
+                </li>
+            </ul>
+        </div>
+        <div class="social">
+            <h2>
+                Social Handles
+            </h2>
+            <ul>
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/bhavya-arora-b149aa24a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEG0A646eQKq9xvTlwgyrqA%3D%3D">Linkedin</a>
+                </li>
+                <li><a href="tel:7404411284">Call Us</a></li>
+                <li>Mail : bhavya56arora11@gmail.com</li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>Copyright&#169;WebDProject.com</p>
+        </div>
+    </footer>
+</body>
+<script>
+    let counter = 1;
+    let btn = document.getElementsByClassName("btn");
+    btn[counter - 1].checked = true;
+    function shiftimg(n) {
+        counter = n;
+        let slide = document.getElementsByClassName("slides")
+        slide[0].style.marginLeft = String((counter - 1) * (-100)) + "%";
+        btn[counter - 1].checked = true;
+    }
+    setInterval(automatic_slide, 5000)
+    function automatic_slide() {
+        shiftimg(counter)
+        counter += 1;
+        if (counter > 4) {
+            counter = 1;
+        }
+    }
+
+</script>
+
+</html>
