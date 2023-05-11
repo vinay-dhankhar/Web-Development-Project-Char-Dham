@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #007bff;
+  height: 5vw;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav-el {
+  text-align: center;
+  align-self: center;
+  color: whitesmoke;
+  font-weight: bold;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.navigation-bar img {
+  height: 50px;
+}
+.slidecard {
+  width: 100%;
+  overflow: hidden;
+}
+.slides {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: 2s;
+}
+.images {
+  transition: 2s;
+  width: 60vw;
+}
+.images img {
+  width: 80vw;
+  height: 70vh;
+}
+
+.slider-btn {
+  margin: auto;
+  text-align: center;
+}
+.slider-btn input {
+  margin: 10px;
+  appearance: none;
+  background-color: aqua;
+  color: black;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.slider-btn input:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.slider-btn input:checked {
+  background-color: yellow;
+}
+.register-btn {
+  margin: auto;
+  text-align: center;
+  height: 30px;
+  width: 120px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #007bff;
+  border-radius: 4px;
+}
+.register-btn:hover {
+  color: #007bff;
+  background-color: white;
+}
+.cards {
+  margin: 20px;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+body {
+  background-color: rgb(221, 221, 221);
+}
+
+.info_img {
+  display: block;
+}
+.info_img img {
+  width: 50vw;
+  height: 50vh;
+  /* position: relative; */
+}
+
+.img_content{
+  display: block;
+  line-height: 1.5;
+  position: relative;
+}
+.img_content ul{
+  position:absolute;
+  text-align: justify;
+  bottom: 8vw;
+  left: 40vw;
+  background-color: rgba(0, 87, 168, 0.85);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: fit-content;
+  width: fit-content;
+}
+.gen_img {
+  margin: 30px;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 20px;
+}
+
+.img_content ul {
+  margin: 1.2vw;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 10vw;
+  font-family: "Caveat", cursive;
+}
+.know,
+.time,
+.attractions,
+.nearby,
+.to_do,
+.dir_weather,
+.info_img {
+  margin: 5vw;
+}
+
+.know,
+.time,
+.attractions,
+.nearby,
+.to_do,
+.dir_weather {
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3vw;
+  margin-bottom: 1vw;
+}
+
+h3 {
+  margin-bottom: 1vw;
+}
+
+.headings {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+.to_do {
+  background-image: url(https://uttarakhandtourism.gov.in/sites/default/files/2020-07/Feel%20the%20thrill%20banner.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nearby img,
+.attractions img {
+  display: inline;
+  margin: 5px;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+
+#img:hover {
+  filter: brightness(100%);
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #212529;
+  color: white;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+}
+
+footer div {
+  position: relative;
+  display: block;
+  /* width: 20%; */
+  /* height: fit-content; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+}
