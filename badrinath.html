@@ -51,6 +51,7 @@
     <div class="slider-btn">
         <input type="radio" name="slide" class="btn" id="img1" onclick="shiftimg(1)">
         <input type="radio" name="slide" class="btn" id="img2" onclick="shiftimg(2)">
+        <input type="radio" name="slide" class="btn" id="img2" onclick="shiftimg(3)">
     </div>
     <div class="info_img">
         <div>
@@ -113,6 +114,7 @@
     </div>
     <div class="dir_weather">
         <h2>Get Direction</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6858.339419487065!2d79.49396965!3d30.7417341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a78e9f973108e7%3A0xf05a8b5e0c71473!2sBadrinath%2C%20Uttarakhand%20246422!5e0!3m2!1sen!2sin!4v1683837209818!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="nearby">
         <h2 class="headings" style="color:black
@@ -170,7 +172,7 @@
     function automatic_slide() {
         shiftimg(counter)
         counter += 1;
-        if (counter > 4) {
+        if (counter > 3) {
             counter = 1;
         }
     }
