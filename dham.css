@@ -144,6 +144,8 @@ body {
   width: 25vw;
   height: 25vw;
   border-radius: 20px;
+  align-self: center;
+  justify-content: center;
 }
 
 .img_content ul {
@@ -197,6 +199,8 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 
 .nearby img,
