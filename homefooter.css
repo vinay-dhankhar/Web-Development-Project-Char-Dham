@@ -1,0 +1,19 @@
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.foot h2 , h4 , ul{
+    margin: 10px;
+}
+
+.foot h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot ul li{
+    margin: 5px;
+    padding: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
