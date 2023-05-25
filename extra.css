@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.top-image{
+    background-image: url("https://uttarakhandtourism.gov.in/sites/default/files/2020-06/main%20banner%207.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+#header{
+    /* background-color: #07376a; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-el{
+    text-align: center;
+    align-self: center;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.navigation-bar img{
+    height: 10vh;
+}
+.dropdown{
+    padding: 0.65vh 3vw;
+    color: antiquewhite;
+    /* background-color: #07376a; */
+    text-decoration: none;
+    height: auto;
+    width: fit-content;
+    height: 69.5px;
+}
+
+.dropdown-content{
+    display: none;
+    min-width: 160px;
+    min-height: 200px;
+    z-index: 1;
+    position: absolute;
+}
+
+.dropdown-content a{
+    padding: 10px;
+    color: antiquewhite;
+    background-color: gray;
+    text-decoration: none;
+    display: block;
+}
+
+#faq-dropdown:hover #faq-dropdown-content{
+    display: block;
+}
+#faq-dropdown:hover{
+    background-color: #031930;
+}
+#faq-dropdown-content a:hover{
+    background-color: rgb(65, 62, 62);
+}
+
+#home-dropdown:hover #home-dropdown-content{
+    display: block;
+}
+#home-dropdown:hover{
+    background-color: #031930;
+}
+#home-dropdown-content a:hover{
+    background-color: rgb(65, 62, 62);
+}
+
+#explore-dropdown:hover #explore-dropdown-content{
+    display: block;
+}
+#explore-dropdown:hover{
+    background-color: #031930;
+}
+#explore-dropdown-content a:hover{
+    background-color: rgb(65, 62, 62);
+}
+
+#exp-dropdown:hover #exp-dropdown-content{
+    display: block;
+}
+#exp-dropdown:hover{
+    background-color: #031930;
+}
+#exp-dropdown-content a:hover{
+    background-color: rgb(65, 62, 62);
+}
+
+.AdventureQuestions{
+    margin: 3vh;
+   position: relative;
+   left:10%;
+   right:10%;
+}
+.footer{
+    margin-top: 5vh;
+    background-color:rgb(175, 225, 222);
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+.question{
+    font-size: 3vh;
+}
+.answer{
+    font-size: 3vh;
+}
+li,.copyright{
+    font-size: 3vh;
+}
