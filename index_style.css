@@ -1,25 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#header{
+
+#header {
     background-color: #07376a;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
-body{
-        background-color: white;
+
+body {
+    background-color: white;
 }
-.navigation-bar{
+
+.navigation-bar {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
 }
-.nav-el{
+
+.nav-el {
     text-align: center;
     align-self: center;
     color: whitesmoke;
@@ -27,33 +31,39 @@ body{
     margin-left: 30px;
     text-decoration: none;
 }
-.navigation-bar img{
+
+.navigation-bar img {
     height: 10vh;
 }
-.slidecard{
+
+.slidecard {
     width: 100%;
     overflow: hidden;
 }
-.slides{
+
+.slides {
     width: 100vw;
     display: flex;
     flex-direction: row;
-    align-items: center; 
+    align-items: center;
     transition: 2s;
 }
-.images{
+
+.images {
     transition: 2s;
-    width: 100vw;
-}
-.images img{
     width: 100vw;
 }
 
-.slider-btn{
+.images img {
+    width: 100vw;
+}
+
+.slider-btn {
     margin: auto;
     text-align: center;
 }
-.slider-btn input{
+
+.slider-btn input {
     margin: 10px;
     appearance: none;
     background-color: white;
@@ -65,28 +75,34 @@ body{
     position: relative;
     bottom: 50px;
 }
-.slider-btn input:hover{
+
+.slider-btn input:hover {
     cursor: pointer;
 }
-.slider-btn input:checked{
+
+.slider-btn input:checked {
     background-color: #07376a;
     filter: opacity(90%);
 }
-.about{
+
+.about {
     margin: 10px 20px;
     text-align: center;
 }
-.about h1{
+
+.about h1 {
     color: #212529;
     font-size: xx-large;
     font-weight: bolder;
 }
-.about p{
+
+.about p {
     font-size: large;
     margin: 10px 100px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.register-btn{
+
+.register-btn {
     margin: auto;
     text-align: center;
     height: 30px;
@@ -94,24 +110,27 @@ body{
     background-color: #007bff;
     color: white;
     font-weight: bold;
-    border: 3px solid #007bff ;
+    border: 3px solid #007bff;
     border-radius: 4px;
 }
-.register-btn:hover{
+
+.register-btn:hover {
     color: #007bff;
     background-color: white;
 }
-.cards{
+
+.cards {
     margin: 20px 80px;
     height: auto;
     width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
 }
-.places{
+
+.places {
     height: 30vh;
     width: 20vw;
     margin: 10px;
@@ -121,32 +140,39 @@ body{
     border-radius: 8px;
     overflow: hidden;
 }
-#p1{
+
+#p1 {
     background-image: url("Banner_badrinath_for_cards.jpeg");
 }
-#p2{
+
+#p2 {
     background-image: url("Banner_Kedarnath_for_cards.jpeg");
 }
-#p3{
+
+#p3 {
     background-image: url("Banner_Yamunotri_for_cards.jpeg");
 }
-#p4{
+
+#p4 {
     background-image: url("Banner_Gangotri_for_cards.jpeg");
 }
-.places p{
+
+.places p {
     color: white;
     font-weight: bolder;
     text-align: center;
     font-size: xx-large;
 }
-.support{
+
+.support {
     margin: 10px 10px 0px 10px;
     display: block;
     float: right;
-    position:sticky;
+    position: sticky;
     top: 620px;
 }
-.foot{
+
+.foot {
     background-color: #212529;
     color: aliceblue;
 }

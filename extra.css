@@ -7,10 +7,12 @@ body{
     overflow-x: hidden;
 }
 .top-image{
-    width: 100%;
+    background-image: url("https://uttarakhandtourism.gov.in/sites/default/files/2020-06/main%20banner%207.jpg");
+    background-size: cover;
+    height: 100vh;
 }
 #header{
-    background-color: #07376a;
+    /* background-color: #07376a; */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -36,7 +38,7 @@ body{
 .dropdown{
     padding: 0.65vh 3vw;
     color: antiquewhite;
-    background-color: #07376a;
+    /* background-color: #07376a; */
     text-decoration: none;
     height: auto;
     width: fit-content;
