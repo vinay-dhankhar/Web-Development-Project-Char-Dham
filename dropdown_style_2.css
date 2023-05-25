@@ -1,11 +1,24 @@
+header{
+    position:sticky;
+    top: 0px;
+    width: 100%;
+}
+.headerNAV{
+    width: 100%;
+    background-color: #07376a;
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+}
 .dropdown{
-    padding: 0.65vh 3vw;
+    padding: 0.65vh 2.5vw;
     color: antiquewhite;
     background-color: #07376a;
     text-decoration: none;
     height: auto;
     width: fit-content;
     height: 69.5px;
+    position: sticky;
 }
 
 .dropdown-content{
@@ -14,6 +27,9 @@
     min-height: 200px;
     z-index: 1;
     position: absolute;
+    left: 0px;
+    position: absolute;
+    top: 10vh;
 }
 
 .dropdown-content a{
