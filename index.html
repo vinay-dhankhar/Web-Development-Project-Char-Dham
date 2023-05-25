@@ -7,33 +7,75 @@
     <title>Char Dham</title>
     <link rel="stylesheet" href="index_style.css">
     <link rel="stylesheet" href="dropdown_style_2.css">
-    <link rel="shortcut icon" href="https://cdn.dribbble.com/users/3426991/screenshots/6575307/uttarakhand-tourism.jpg" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav class="navigation-bar">
-            <img class="nav-el" src="https://amritmahotsav.nic.in/writereaddata/portal/images/logo-poster-4.jpg" alt="azadi_ka_amrit_Logo">
-            <a class="nav-el" href="home.html"> <p>HOME</p> </a>
-            <a class="nav-el" href="expolre.html"> <p>EXPLORE</p> </a>
-            <a class="nav-el" href="experience.html"> <p> EXPERIENCE</p> </a>
-            <a class="nav-el" href="FAQ1.html"> <p>FAQ</p> </a>
+            <img class="nav-el" src="azadi_ka_amrit.png" alt="azadi_ka_amrit_Logo">
+            <div class="dropdown" id="home-dropdown">
+                <a class="nav-el" href="home.html"> 
+                    <p>HOME</p> 
+                </a>
+                <div class="dropdown-content" id="home-dropdown-content">
+                    <a href="badrinath.html">Badrinath</a>
+                    <a href="gangotri.html">Gangotri</a>
+                    <a href="yamunotri.html">Yamunotri</a>
+                    <a href="kedarnath.html">Kedarnath</a>
+                </div>
+            </div>
+            <div class="dropdown" id="explore-dropdown">
+            <a class="nav-el" href="expolre.html">
+                <p>EXPLORE</p>
+            </a>
+            <div class="dropdown-content" id="explore-dropdown-content">
+                <a href="valleyofflowers.html">Valley Of Flowers</a>
+                <a href="haridwar.html">Haridwar</a>
+                <a href="nani_rishikesh.html">Nainital-Rishikesh</a>
+                <a href="jim_national_park.html">Jim Corbett National Park</a>
+            </div>
+        </div>
+            <div class="dropdown" id="exp-dropdown">
+            <a class="nav-el" href="experience.html">
+                <p> EXPERIENCE</p>
+            </a>
+            <div class="dropdown-content" id="exp-dropdown-content">
+                <a href="adventure.html">Adventure</a>
+                <a href="yoga.html">Yoga & Wellness</a>
+                <a href="event.html">Event</a>
+                <a href="fairs.html">Fairs</a>
+            </div>
+        </div>
+
+                <div class="dropdown" id="faq-dropdown">
+                    <a class="nav-el" href="faq.html" id="faq">
+                       <p>FAQ</p></a>
+                <div class="dropdown-content" id="faq-dropdown-content">
+                    <a href="adventurefaq.html">Adventure FAQ</a>
+                    <a href="homestayfaq.html">HomeStay FAQ</a>
+                    <a href="destinationfaq.html">Destination FAQ</a>
+                    <a href="trekkingfaq.html">Trekking FAQ</a>
+                </div>
+                </div>
         </nav>
     </header>
     <div class="slidecard">
         <div class="slides">
                 <div class="images" id="img1">
-                    <a href="badrinath.html">                <img src="https://uttarakhandtourism.gov.in/sites/default/files/2020-07/badrinath_1000_500.jpg" alt="badrinath"></a>
+                <img src="Banner_badrinath.jpeg" alt="badrinath">
             </div>
             <div class="images" id="img2">
-                <a href="gangotri.html"><img src="https://uttarakhandtourism.gov.in/sites/default/files/2020-08/gangotri.jpg" alt="Gangotri"></a>
+                <img src="Banner_Gangotri.jpeg" alt="Gangotri">
             </div>
             <div class="images" id="img3">
-                <a href="kedarnath.html"><img src="https://uttarakhandtourism.gov.in/sites/default/files/2020-08/Kedarnath%28new%29.jpg" alt="Kedarnath"></a>
+                <img src="Banner_Kedarnath.jpeg" alt="Kedarnath">
             </div>
             <div class="images" id="img4">
-                <a href="yamnotri.html"><img src="https://uttarakhandtourism.gov.in/sites/default/files/2020-09/Yamunotri_under%20banner%20image.jpg" alt="Yamunotri"></a>
+                <img src="Banner_Yamunotri.jpeg" alt="Yamunotri">
             </div>
     </div>
+    </div>
+    <div class="support" title="Contact For more Info">
+        <img src="watsapplogo-removebg-preview.png" alt="support" height="60px">
     </div>
     <div class="slider-btn">
         <input type="radio" name="slide" class="btn" id="img1" onclick="shiftimg(1)">
@@ -41,6 +83,7 @@
         <input type="radio" name="slide" class="btn" id="img3" onclick="shiftimg(3)">
         <input type="radio" name="slide" class="btn" id="img4" onclick="shiftimg(4)">
     </div>
+    
     <div class="about">
         <h1>CHAR DHAM</h1>
         <p>Uttarakhand, also known as Devbhoomi or the Land of Gods, is home to numerous temples and welcomes devotees all year round. Among the countless religious sites and circuits that devotees visit in Uttarakhand, one of the most prominent is the Char Dham Yatra. This Yatra or pilgrimage is a tour of four holy sites - Yamunotri, Gangotri, Kedarnath and Badrinath – nestled high up in the Himalayas. In Hindi, 'char' means four and 'dham' refers to religious destinations.</p>
@@ -77,6 +120,11 @@
         </a>
         </div>
     </div>
+    <footer>
+        <div class="foot">
+            <h2>About</h2>
+        </div>
+    </footer>
 </body>
 <script>
     
@@ -97,5 +145,6 @@
             counter = 1;
         }
     }
+
 </script>
 </html>
