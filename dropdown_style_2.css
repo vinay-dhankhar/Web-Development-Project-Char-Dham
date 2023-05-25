@@ -1,11 +1,12 @@
 .dropdown{
-    padding: 0.65vh 3vw;
+    padding: 0.65vh 2.5vw;
     color: antiquewhite;
     background-color: #07376a;
     text-decoration: none;
     height: auto;
     width: fit-content;
     height: 69.5px;
+    position: sticky;
 }
 
 .dropdown-content{
