@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+img{
+    width:100%;
+}
+.AdventureQuestions{
+    margin: 3vh;
+   position: relative;
+   left:10%;
+   right:10%;
+}
+.footer{
+    margin-top: 5vh;
+    background-color:rgb(175, 225, 222);
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+.question{
+    font-size: 3vh;
+}
+.answer{
+    font-size: 3vh;
+}
+li,.copyright{
+    font-size: 3vh;
+}
