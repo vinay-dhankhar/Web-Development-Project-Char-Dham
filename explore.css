@@ -1,0 +1,73 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(218, 211, 211);
+}
+
+.content{
+    margin: 2vh 8vw;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.front-image img{
+    width: 100%;
+}
+
+.front-img{
+    margin: 2vh 22vw;
+    background-position:center;
+    background-image: url("v3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50vw;
+}
+
+.writeup{
+    display: inline-block;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 55vw;
+    top: 115vh;
+    color:ivory;
+    font-size: x-large;
+    filter: opacity(85%);
+}
+
+.writeup ul{
+    list-style: none;
+}
+
+#p1{
+    background-image: url(nanda\ devi.jpg);
+}
+#p2{
+    background-image: url(mana.jpg);
+}
+#p3{
+    background-image: url(hemkunt\ lake.jpg);
+}
+
+.reach{
+    margin: 5vh 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.travel{
+    font-size: large;
+    min-height: 50vh;
+    width: 19.25vw;
+    word-wrap: normal;
+    background-color: beige;
+    box-shadow: 10px 5px;
+}
+.travel p,b{
+    margin: 10px;
+    padding: 5px;
+}

@@ -11,8 +11,8 @@
     z-index: 1000;
 }
 
-body {
-    background-color: white;
+body{
+    background-color: rgb(218, 211, 211);
 }
 
 .navigation-bar {
@@ -131,7 +131,7 @@ body {
 }
 
 .places {
-    height: 30vh;
+    height: 35vh;
     width: 20vw;
     margin: 10px;
     border-radius: 8px;
@@ -139,6 +139,8 @@ body {
     background-repeat: no-repeat;
     border-radius: 8px;
     overflow: hidden;
+    filter: brightness(70%);
+    transition: 0.5s 0s ease-out;
 }
 
 #p1 {
@@ -161,7 +163,13 @@ body {
     color: white;
     font-weight: bolder;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
+}
+
+.places:hover{
+    filter: brightness(100%);
+    transform: scale(1.1);
+    box-shadow: 10px 10px 5px;
 }
 
 .support {
