@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valley of Flowers</title>
     <link rel="stylesheet" href="headerAll.css">
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="homefooter.css">
+    <link rel="stylesheet" href="dropdown_style_2.css">
 </head>
 <body>
     <header id="header">
@@ -59,6 +62,77 @@
             </div>
         </nav>
     </header>
-    
+    <div class="slidecard">
+        <div class="slides">
+                <div class="images" id="img1">
+                <img src="v1new.jpg" alt="v1" >
+            </div>
+            <div class="images" id="img2">
+                <img src="v2new.jpg" alt="v2">
+            </div>
+            <div class="images" id="img3">
+                <img src="v3 new copy.jpg" alt="v3">
+            </div>
+            <div class="images" id="img4">
+                <img src="v4new.jpg" alt="v4">
+            </div>
+    </div>
+    </div>
+    <div class="support" title="Contact For more Info">
+        <img src="watsapplogo-removebg-preview.png" alt="support" height="60px">
+    </div>
+    <div class="slider-btn">
+        <input type="radio" name="slide" class="btn" id="img1" onclick="shiftimg(1)">
+        <input type="radio" name="slide" class="btn" id="img2" onclick="shiftimg(2)">
+        <input type="radio" name="slide" class="btn" id="img3" onclick="shiftimg(3)">
+        <input type="radio" name="slide" class="btn" id="img4" onclick="shiftimg(4)">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur expedita eos provident, eveniet quis nam laboriosam cumque nemo optio cum officiis illum beatae velit deleniti cupiditate architecto. Nihil, alias et.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolores aliquam ratione dignissimos itaque, consectetur ullam perspiciatis ducimus. Impedit cum tempore labore vitae aut voluptatem inventore eos optio suscipit est.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est vel nulla eligendi nam labore quis ipsa minima mollitia, molestiae excepturi? Accusamus atque id fuga distinctio facilis accusantium quas asperiores quos!Lorem
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad atque corporis ratione voluptates sint alias architecto autem eum blanditiis dignissimos voluptatem quidem sunt iure harum culpa facere consequuntur, numquam at?
+    </p>
+    <footer>
+        <div class="foot">
+            <div class="about">
+            <h2>About Us</h2>
+            <h4>Contact Details</h4>
+            <ul style="list-style-type: none;">
+                <li>Phone number : 0123456789</li>
+                <li>Mail id : dhamtourism@ksbv.com</li>
+            </ul>
+        </div>
+        <div class="social">
+            <h2> Our Social Handels</h2>
+            <ul style="list-style-type: none;">
+                <li>LinkedIn: dhamtourism@gov</li>
+                <li>Twitter: ukchardhamtour</li>
+                <li>Facebook: dhamtourism@ukgov</li>
+                <li>Instagram: dhamtourism@ukgov</li>
+            </ul> 
+        </div>   
+        </div>
+    </footer>
 </body>
+<script>
+    
+    let counter = 1;
+    let btn = document.getElementsByClassName("btn");
+    btn[counter-1].checked = true;
+    function shiftimg(n){
+        counter = n;
+        let slide = document.getElementsByClassName("slides")
+        slide[0].style.marginLeft =String((counter-1) * (-100)) + "%";
+        btn[counter-1].checked = true;
+    }
+    setInterval( automatic_slide , 5000)
+    function automatic_slide(){
+        shiftimg(counter)
+        counter += 1;
+        if( counter > 4){
+            counter = 1;
+        }
+    }
+
+</script>
 </html>
