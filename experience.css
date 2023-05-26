@@ -6,8 +6,9 @@
 #top-image{
     height: 90vh;
     width: 100vw;
+    height: 80vh;
 }
-h2{
+.voice{
     margin-top: 5vh;
     font-size: 5vh;
     font-family: cursive;
@@ -29,29 +30,55 @@ h2{
     text-align: center;
 }
 
-.melas{
+.melas,.adventures,.yogas{
     margin-top: 10vh;
+    height: 50vh;
     display: flex;
 }
-.mela-images{
+.mela-images {
     border-radius: 3%;
     box-shadow: .5vw .5vw 1vw rgba(0, 0, 0, 0.779);
     width: 25vw;
     height: 40vh;
 }
-.mela-image-with-content
+.mela-image-with-content,.adventure-image-with-content,.yoga-image-with-content
 {   
     margin-left: 5vw;
     position: relative;
-}
-.mela-name
+ } 
+.mela-name,.adventure-name
 {
-    font-family: sans-serif;
+    font-family: cursive;
     font-size: 4vh;
     position: relative;
     color: white;
     bottom: 7vh;
 }
+ 
+.mela-content{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 23vw;
+    color: white;
+    position: relative;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    bottom: 35vh;
+    left: 1vw;
+    opacity: 0%;
+    transition: .5s ease-in;
+}
+.mela-image-with-content:hover .mela-content{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 23vw;
+    color: white;
+    position: relative;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    bottom: 35vh;
+    left: 1vw;
+    opacity: 100%;
+    transition: .5s ease-in;
+} 
 .kumbh-mela{
     left: 2vw;
 }
@@ -62,17 +89,39 @@ h2{
 .uttarayani-mela{
     left: 6vw;
 }
-.mela-content{
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 23vw;
-    color: white;
-    position: relative;
-    font-family: sans-serif;
-    bottom: 35vh;
-    left: 1vw;
-    opacity: 0%;
-    transition: .5s ease-in;
+/* Adventures start */
+
+/* scaling the image inside the box only */
+.adventure-image-with-content,.yoga-image-with-content{
+    border-radius: 3%;
+    box-shadow: .5vw .5vw 1vw rgba(0, 0, 0, 0.779);
+    width: 25vw;
+    height: 40vh;
+    overflow: hidden;
 }
-.mela-image-with-content:hover .mela-content{
-    opacity: 100%;
+.adventure-images,.yoga-images{
+    width: 100%;
+    height: 100%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+.adventure-images:hover,.yoga-images:hover{
+    transform: scale(1.1);
+}
+
+.paragliding{
+    left: 6.5vw;
+}
+.river-rafting{
+    left: 5vw;
+}
+.bungee-jumping{
+    left: 4.5vw;
+}
+.parmarth-niketan,.patanjali-yogpeeth,.ved-niketan{
+    left: 4vw;
+}
+.yoga-name{
+    font-weight: bold;
+    color: black;
 }
