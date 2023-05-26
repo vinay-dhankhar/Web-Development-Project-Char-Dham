@@ -1,3 +1,11 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(218, 211, 211);
+}
+
 .content{
     margin: 2vh 8vw;
     padding: 10px;
@@ -42,4 +50,24 @@
 }
 #p3{
     background-image: url(hemkunt\ lake.jpg);
+}
+
+.reach{
+    margin: 5vh 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.travel{
+    font-size: large;
+    min-height: 50vh;
+    width: 19.25vw;
+    word-wrap: normal;
+    background-color: beige;
+    box-shadow: 10px 5px;
+}
+.travel p,b{
+    margin: 10px;
+    padding: 5px;
 }
