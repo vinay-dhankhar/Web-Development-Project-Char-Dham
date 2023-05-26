@@ -6,8 +6,8 @@
 body{
     overflow-x: hidden;
 }
-.top{
-    position: relative;
+.top-image{
+    width: 100%;
 }
 #header{
     background-color: #07376a;
@@ -98,9 +98,7 @@ body{
 #exp-dropdown-content a:hover{
     background-color: rgb(65, 62, 62);
 }
-.top-image{
-    width: 100%;
-}
+
 .AdventureQuestions{
     margin: 3vh;
    position: relative;
