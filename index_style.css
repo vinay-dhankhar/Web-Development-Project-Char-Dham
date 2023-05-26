@@ -139,6 +139,8 @@ body {
     background-repeat: no-repeat;
     border-radius: 8px;
     overflow: hidden;
+    filter: brightness(70%);
+    transition: 0.5s 0s ease-out;
 }
 
 #p1 {
@@ -161,7 +163,12 @@ body {
     color: white;
     font-weight: bolder;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
+}
+
+.places:hover{
+    filter: brightness(100%);
+    transform: scale(1.1);
 }
 
 .support {
