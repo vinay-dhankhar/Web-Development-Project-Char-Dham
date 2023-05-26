@@ -20,7 +20,6 @@ body{
 .front-img{
     margin: 2vh 22vw;
     background-position:center;
-    background-image: url("v3.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 50vh;
@@ -29,29 +28,17 @@ body{
 
 .writeup{
     display: inline-block;
-    background-color: cornflowerblue;
+    background-color: #07376a;
     position: absolute;
     left: 55vw;
-    top: 115vh;
+    top: 112vh;
     color:ivory;
-    font-size: x-large;
+    font-size: large;
     filter: opacity(85%);
 }
-
 .writeup ul{
-    list-style: none;
+    list-style:none;
 }
-
-#p1{
-    background-image: url(nanda\ devi.jpg);
-}
-#p2{
-    background-image: url(mana.jpg);
-}
-#p3{
-    background-image: url(hemkunt\ lake.jpg);
-}
-
 .reach{
     margin: 5vh 10vw;
     display: flex;
