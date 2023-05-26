@@ -1,4 +1,3 @@
-
 .content{
     margin: 2vh 8vw;
     padding: 10px;
@@ -11,8 +10,8 @@
 }
 
 .front-img{
-    margin: 2vh 8vw;
-    background-position:left;
+    margin: 2vh 22vw;
+    background-position:center;
     background-image: url("v3.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -24,10 +23,10 @@
     display: inline-block;
     background-color: cornflowerblue;
     position: absolute;
-    left: 30vw;
+    left: 55vw;
     top: 115vh;
     color:ivory;
-    font-size: large;
+    font-size: x-large;
     filter: opacity(85%);
 }
 
