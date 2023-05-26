@@ -67,6 +67,12 @@ h2{
     width: 23vw;
     color: white;
     position: relative;
-    bottom: 30vh;
+    font-family: sans-serif;
+    bottom: 35vh;
     left: 1vw;
+    opacity: 0%;
+    transition: .5s ease-in;
+}
+.mela-image-with-content:hover .mela-content{
+    opacity: 100%;
 }
