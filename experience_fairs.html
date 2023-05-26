@@ -80,13 +80,15 @@
     <h1 class="mela-heading">F A I R / मे ला</h1>
 
     <div class="melas">
-        <div class="mela-image-with-content" onmouseover="">
+        <div class="mela-image-with-content" onmouseover=show_hidden_content_of_mela()>
             <img src="https://i.pinimg.com/originals/79/e3/27/79e3272156308f9b8044cf7f4b7e224b.jpg"
                 alt="kumbh-mela-at-Haridwar" class="mela-images">
             <div class="mela-name kumbh-mela">
                 Kumbh Mela at Haridwar</div>
-            <div class="mela-content kumbh-mela">
-                Apart from being one of the most auspicious religious events for all the Hindus worldwide, the Kumbh Mela at Haridwar is always a grand visual feast, attracting visitors, media, filmmakers, correspondents, writers and the common curious onlookers from the world over.
+            <div class="mela-content kumbh-mela" >
+                Apart from being one of the most auspicious religious events for all the Hindus worldwide, the Kumbh
+                Mela at Haridwar is always a grand visual feast, attracting visitors, media, filmmakers, correspondents,
+                writers and the common curious onlookers from the world over.
             </div>
         </div>
         <div class="mela-image-with-content">
@@ -95,12 +97,18 @@
             <div class="mela-name nanda-devi">
                 Nanda Devi Mela
             </div>
+            <div class="mela-content kumbh-mela" >
+                Nanda Devi Mahotsav has an immense cultural and religious significance, and it is held with a great deal of pomp and grandeur, as it symbolizes the economic and cultural prosperity of the region. The mela is generally held in the month of September.
+            </div>
         </div>
         <div class="mela-image-with-content">
             <img src="https://www.tourmyindia.com/states/uttarakhand/images/uttarayani-festival6.jpg"
                 alt="uttarayni-mela" class="mela-images">
             <div class="mela-name uttarayani-mela">
-              Uttarayani Mela
+                Uttarayani Mela
+            </div>
+            <div class="mela-content kumbh-mela" >
+                The Uttarayani Fair is celebrated on the occasion of Makara Sankranti which generally falls in January. The large gatherings of the mela, so bright and colourful, it is a visual treat. You will surely enjoy the impressive performances by the folk artists. They sing Jhoras, Chancharis and Bairas.
             </div>
         </div>
     </div>
@@ -127,5 +135,9 @@
     </footer>
 </body>
 <script>
+    function show_hidden_content_of_mela() {
+        document.getElementsByClassName("mela-content")[0].getAttribute("hidden") = false
+    }
 </script>
+
 </html>
