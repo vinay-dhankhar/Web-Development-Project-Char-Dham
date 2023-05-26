@@ -128,13 +128,14 @@ body {
   width: fit-content;
   font-size: large;
 }
+.attraction-images
+{
+  display: flex;
+}
 .gen_img {
-  margin: 30px;
   width: 25vw;
   height: 25vw;
   border-radius: 20px;
-  align-self: center;
-  justify-content: center;
 }
 
 .img_content ul {
@@ -148,8 +149,6 @@ h1 {
 .know,
 .time,
 .attractions,
-.nearby,
-.to_do,
 .dir_weather,
 .info_img {
   margin: 5vw;
@@ -158,13 +157,16 @@ h1 {
 .know,
 .time,
 .attractions,
-.nearby,
-.to_do,
 .dir_weather {
   font-size: 1.5vw;
   line-height: 1.5;
 }
-
+.to_do_images,.nearby-img{
+  width: 25vw;
+  height: 25vw;
+  border-radius: 20px;
+  margin-left: 6vw;
+}
 h2 {
   font-size: 3vw;
   margin-bottom: 1vw;
@@ -192,19 +194,28 @@ h3 {
 }
 
 .nearby img,
+<<<<<<< Updated upstream
 .attractions img {
   display: inline;
   margin: 5px;
   transition: transform 0.5s, filter 0s ease-in-out;
+=======
+.attraction-images img {
+  display: flex;
+  margin-left: 3vw;
+  transition: transform 2s, filter 1.5s ease-in-out;
+>>>>>>> Stashed changes
   transform-origin: center center;
   filter: brightness(50%);
 }
 
-#img:hover {
+.gen_img:hover {
+  transition: 1s ease-in-out;
   filter: brightness(100%);
   transform: scale(1.05);
 }
 
+<<<<<<< Updated upstream
 a {
   text-decoration: none;
   color: white;
@@ -213,3 +224,5 @@ a {
 .copyright {
   text-align: center;
 }
+=======
+>>>>>>> Stashed changes

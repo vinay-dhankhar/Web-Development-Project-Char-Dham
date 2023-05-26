@@ -125,3 +125,10 @@
     font-weight: bold;
     color: black;
 }
+.adventure-image-with-content,.yoga-image-with-content{
+    filter: brightness(70%);
+}
+.adventure-image-with-content:hover,.yoga-image-with-content:hover{
+    filter: brightness(100%);
+    transition: .5s ease-in;
+}
