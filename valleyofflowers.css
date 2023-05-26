@@ -1,5 +1,39 @@
+*{
+    box-sizing:content-box;
+}
+
 .content{
-    margin: 20px;
+    margin: 2vh 8vw;
     padding: 10px;
     font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.front-image img{
+    width: 100%;
+}
+
+.front-img{
+    margin: 2vh 8vw;
+    background-position:left;
+    background-image: url("v3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50vw;
+}
+
+.writeup{
+    display: inline-block;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 30vw;
+    top: 115vh;
+    color:ivory;
+    font-size: large;
+    filter: opacity(85%);
+}
+
+.writeup ul{
+    list-style: none;
 }
