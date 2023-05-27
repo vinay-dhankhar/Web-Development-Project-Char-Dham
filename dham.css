@@ -78,7 +78,8 @@
 }
 
 .attraction-image-with-name{
-  margin-left: 1vw;
+  box-shadow: .5vw .5vw 1.5vw black;
+  margin-left: 2vw;
   width: 25vw;
   height: 50vh;
   border-radius: 5%;
