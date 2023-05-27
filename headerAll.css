@@ -21,7 +21,7 @@
     align-self: center;
     color: whitesmoke;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 0px; 
     text-decoration: none;
 }
 .navigation-bar img{
@@ -69,11 +69,13 @@
     background-color: #07376a;
     filter: opacity(90%);
 }
+
 header{
     position:sticky;
     top: 0px;
     width: 100%;
 }
+
 .headerNAV{
     width: 100%;
     background-color: #07376a;
@@ -81,16 +83,24 @@ header{
     flex-direction: row;
     z-index: 10;
 }
+
 .dropdown{
-    padding: 0.65vh 2.5vw;
+    padding: 0.65vh 2.5vw; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     color: antiquewhite;
     background-color: #07376a;
     text-decoration: none;
-    height: auto;
-    padding-top: 5px;
-    width: fit-content;
+    height: 79.6px;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
     position: sticky;
+    font-size: 15px;
 }
+
 
 .dropdown-content{
     display: none;
@@ -104,6 +114,7 @@ header{
 }
 
 .dropdown-content a{
+    margin: 0;
     padding: 10px;
     color: antiquewhite;
     background-color: gray;

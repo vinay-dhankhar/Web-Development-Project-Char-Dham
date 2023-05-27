@@ -9,6 +9,7 @@ body{
 .top-image{
     width: 100%;
 }
+
 #header{
     background-color: #07376a;
     position: sticky;
@@ -27,7 +28,6 @@ body{
     align-self: center;
     color: whitesmoke;
     font-weight: bold;
-    margin-left: 30px;
     text-decoration: none;
 }
 .navigation-bar img{
@@ -97,7 +97,7 @@ body{
 }
 #exp-dropdown-content a:hover{
     background-color: rgb(65, 62, 62);
-}
+} */
 
 .AdventureQuestions{
     margin: 3vh;
