@@ -114,9 +114,11 @@ body{
 }
 .question{
     font-size: 3vh;
+    margin-right:15%;
 }
 .answer{
     font-size: 3vh;
+    margin-right: 15%;
 }
 li,.copyright{
     font-size: 3vh;
