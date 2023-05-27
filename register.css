@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+body{
+        background-image: url(bholenath.jpg);
+        background-size: cover;
+}
+.registerbox{
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    height: 40vh;
+    width: 60vw;
+}
+h1{
+    margin: 10px 0px;
+}
+input{
+    margin: 10px 0px;
+    background-color: white;
+    color: rgb(0, 0, 0.9);
+    border-radius: 5px;
+}
+
+select{
+    margin: 10px 0px;
+    background-color: white;
+    color: rgb(0, 0, 0.9);
+}
+
+option{
+    background-color: white;
+    color: rgb(0, 0, 0.9);
+}
+
+body{
+    text-align: center;
+}
+
+.bton{
+    transition: 0.5s transform 0s ease-out;
+    background-color: rgb(0, 0, 0.9);
+    height: 4vh;
+    width: 7vw;
+    margin: 2vh 1vw;
+    color: white;
+}
+
