@@ -43,15 +43,17 @@ body{
 }
 
 .travel{
-    font-size: large;
+    font-size: 2.7vh;
     min-height: 50vh;
     width: 19.25vw;
     word-wrap: normal;
     background-color: beige;
     box-shadow: 10px 5px;
  }
- 
+ .travel img{
+    width: 100%;5
+ }
 .travel p,b{
-    margin: 10px;
-    padding: 5px;
+    margin: 1vh;
+    padding: 1vh;
 }
