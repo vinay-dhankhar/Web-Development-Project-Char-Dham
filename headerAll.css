@@ -93,12 +93,14 @@ header{
     color: antiquewhite;
     background-color: #07376a;
     text-decoration: none;
-    height: 69.5px;
+    height: 79.5px;
     margin: 0;
     padding-left: 30px;
     padding-right: 30px;
     position: sticky;
     font-size: 15px;
+    cursor: pointer;
+    transition: 200ms ease-in;
 }
 
 .dropdown-content{
@@ -119,6 +121,7 @@ header{
     background-color: gray;
     text-decoration: none;
     display: block;
+    transition: 200ms ease-in;
 }
 
 #faq-dropdown:hover #faq-dropdown-content{

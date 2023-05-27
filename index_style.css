@@ -103,15 +103,18 @@ body{
 }
 
 .register-btn {
-    margin: auto;
+    margin: 10px;
     text-align: center;
-    height: 30px;
-    width: 120px;
+    height: auto;
+    width: auto;
     background-color: #007bff;
     color: white;
     font-weight: bold;
     border: 3px solid #007bff;
     border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 200ms;
 }
 
 .register-btn:hover {
