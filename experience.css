@@ -46,13 +46,14 @@
     margin-left: 5vw;
     position: relative;
  } 
-.mela-name,.adventure-name
+.mela-name,.adventure-name,.yoga-name
 {
     font-family: cursive;
     font-size: 4vh;
     position: relative;
     color: white;
     bottom: 7vh;
+    text-align: center;
 }
  
 .mela-content{
@@ -79,16 +80,6 @@
     opacity: 100%;
     transition: .5s ease-in;
 } 
-.kumbh-mela{
-    left: 2vw;
-}
-.nanda-devi
-{
-    left: 5vw;
-}
-.uttarayani-mela{
-    left: 6vw;
-}
 /* Adventures start */
 
 /* scaling the image inside the box only */
@@ -108,19 +99,7 @@
 .adventure-images:hover,.yoga-images:hover{
     transform: scale(1.1);
 }
-
-.paragliding{
-    left: 6.5vw;
-}
-.river-rafting{
-    left: 5vw;
-}
-.bungee-jumping{
-    left: 4.5vw;
-}
-.parmarth-niketan,.patanjali-yogpeeth,.ved-niketan{
-    left: 4vw;
-}
+/* scaling done */
 .yoga-name{
     font-weight: bold;
     color: black;
