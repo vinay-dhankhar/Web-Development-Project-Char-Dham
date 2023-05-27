@@ -87,8 +87,8 @@ header{
     background-color: #07376a;
     text-decoration: none;
     height: auto;
+    padding-top: 10px;
     width: fit-content;
-    height: 69.5px;
     position: sticky;
 }
 
