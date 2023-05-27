@@ -3,226 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
-header{
-  background-color: #07376a;
-}
-body{
-      background-color: white;
-}
-.navigation-bar{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-}
-.nav-el{
-  text-align: center;
-  align-self: center;
-  color: whitesmoke;
-  font-weight: bold;
-  margin-left: 30px;
-  text-decoration: none;
-}
-.navigation-bar img{
-  height: 10vh;
-}
-.slidecard{
-  width: 100%;
-  overflow: hidden;
-}
-.slides{
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center; 
-  transition: 2s;
-}
-.images{
-  transition: 0.5s;
-  width: 100vw;
-}
-.images img{
-  width: 100vw;
-}
 
-.slider-btn{
-  margin: auto;
-  text-align: center;
-}
-.slider-btn input{
-  margin: 10px;
-  appearance: none;
-  background-color: white;
-  filter: opacity(90%);
-  height: 25px;
-  width: 25px;
-  border: 2px solid black;
-  border-radius: 50%;
-  position: relative;
-  bottom: 50px;
-}
-.slider-btn input:hover{
-  cursor: pointer;
-}
-.slider-btn input:checked{
-  background-color: #07376a;
-  filter: opacity(90%);
-}
-.about{
-  margin: 10px 20px;
-  text-align: center;
-}
-.about h1{
-  color: #212529;
-  font-size: xx-large;
-  font-weight: bolder;
-}
-.about p{
-  font-size: large;
-  margin: 10px 100px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.cards{
-  margin: 20px 80px;
-  height: auto;
-  width: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items:center;
-  justify-content: space-around;
-}
-body {
-  background-color: rgb(221, 221, 221);
-}
-
-.info_img {
-  display: block;
-}
-.info_img img {
-  margin: 1vh 10vw;
-  width: 50vw;
-  height: 50vh;
+.place-name{
+  font-size: 6vh;
+  color: rgba(0, 0, 0, 0.85);
+  font-family:Arial, Helvetica, sans-serif;
   position: relative;
   left: 10vw;
 }
-
-.img_content{
-  display: block;
-  line-height: 1.5;
+.place-image{
+  display: flex;
+  margin-top: 3vh;
   position: relative;
-  left: 20vw;
+  left: 10vw;
 }
-.img_content ul{
-  position:absolute;
-  text-align: justify;
-  bottom: 8vw;
-  left: 40vw;
-  background-color: rgba(0, 87, 168, 0.85);
+.place-text-background{
+  background-color: rgba(0, 42, 255, 0.699);
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: fit-content;
-  width: fit-content;
-  font-size: large;
-}
-.attraction-images
-{
-  display: flex;
-}
-.gen_img {
+  position: relative;
   width: 25vw;
-  height: 25vw;
-  border-radius: 20px;
+  height: 18vh;
+  top: 20vh;
+  right: 5vw;
+  line-height: 3vh;
+  font-size: 2.5vh;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.place-text{
+  top: 1vh;
+  position: relative;
+  left: 2vw;
+}
+.place-text-list-content{
+  box-sizing: border-box;
 }
 
-.img_content ul {
-  margin: 1.2vw;
-}
-h1 {
-  margin: 0;
-  text-align: center;
-  font-size: 10vh;
-}
-.know,
-.time,
-.attractions,
-.dir_weather,
-.info_img {
-  margin: 5vw;
+.what-to-know-heading{
+  margin: 5vh 0vh 0vh 10vw;
+  color: rgba(0, 0, 0, 0.85);
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-.know,
-.time,
-.attractions,
-.dir_weather {
-  font-size: 1.5vw;
-  line-height: 1.5;
+.what-to-know-content{
+  margin: 1vh 0vh 0vh 10vw;
+  
 }
-.to_do_images,.nearby-img{
-  width: 25vw;
-  height: 25vw;
-  border-radius: 20px;
-  margin-left: 6vw;
-}
-h2 {
-  font-size: 3vw;
-  margin-bottom: 1vw;
-}
-
-h3 {
-  margin-bottom: 1vw;
-}
-
-.headings {
-  text-align: center;
-  color: white;
-  font-weight: 900;
-}
-
-.to_do {
-  background-image: url(https://uttarakhandtourism.gov.in/sites/default/files/2020-07/Feel%20the%20thrill%20banner.jpg);
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-}
-
-.nearby img,
-<<<<<<< Updated upstream
-.attractions img {
-  display: inline;
-  margin: 5px;
-  transition: transform 0.5s, filter 0s ease-in-out;
-=======
-.attraction-images img {
-  display: flex;
-  margin-left: 3vw;
-  transition: transform 2s, filter 1.5s ease-in-out;
->>>>>>> Stashed changes
-  transform-origin: center center;
-  filter: brightness(50%);
-}
-
-.gen_img:hover {
-  transition: 1s ease-in-out;
-  filter: brightness(100%);
-  transform: scale(1.05);
-}
-
-<<<<<<< Updated upstream
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.copyright {
-  text-align: center;
-}
-=======
->>>>>>> Stashed changes
