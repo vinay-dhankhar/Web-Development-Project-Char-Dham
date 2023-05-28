@@ -118,12 +118,16 @@ body{
     cursor: pointer;
     transition-duration: 200ms;
 }
-
 .register-btn:hover {
-    color: #007bff;
     background-color: white;
 }
-
+.register-link{
+    text-decoration: none;
+    color: white;
+}
+.register-btn:hover .register-link{
+    color: #007bff;
+}
 .cards {
     margin: 20px 80px;
     height: auto;
